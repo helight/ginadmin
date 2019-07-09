@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/it234/goapp/main/manageweb/controllers/common"
+	"github.com/it234/goapp/main/controllers/common"
 	"github.com/it234/goapp/main/pkg/cache"
 	"github.com/it234/goapp/main/pkg/convert"
 	"github.com/it234/goapp/main/pkg/jwt"

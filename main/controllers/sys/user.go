@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/it234/goapp/main/manageweb/controllers/common"
+	"github.com/it234/goapp/main/controllers/common"
+	models "github.com/it234/goapp/main/models/common"
+	"github.com/it234/goapp/main/models/sys"
 	"github.com/it234/goapp/main/pkg/cache"
 	"github.com/it234/goapp/main/pkg/convert"
 	"github.com/it234/goapp/main/pkg/hash"
 	"github.com/it234/goapp/main/pkg/jwt"
 	"github.com/it234/goapp/main/pkg/logger"
-	models "github.com/it234/goapp/main/pkg/models/common"
-	"github.com/it234/goapp/main/pkg/models/sys"
 	"github.com/it234/goapp/main/pkg/util"
 
 	linq "github.com/ahmetb/go-linq"
