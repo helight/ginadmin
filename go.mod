@@ -1,4 +1,4 @@
-module github.com/it234/goapp
+module ginadmin
 
 go 1.12
 

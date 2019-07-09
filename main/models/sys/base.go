@@ -3,7 +3,7 @@ package sys
 import (
 	"fmt"
 
-	"github.com/it234/goapp/main/models/basemodel"
+	"ginadmin/main/models/basemodel"
 )
 
 func TableName(name string) string {

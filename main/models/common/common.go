@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/it234/goapp/main/models/db"
+	"ginadmin/main/models/db"
 
 	"github.com/jinzhu/gorm"
 )

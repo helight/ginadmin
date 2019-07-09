@@ -3,7 +3,7 @@ package common
 import (
 	"errors"
 
-	"github.com/it234/goapp/main/pkg/convert"
+	"ginadmin/main/pkg/convert"
 
 	"github.com/gin-gonic/gin"
 )

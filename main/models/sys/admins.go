@@ -3,8 +3,8 @@ package sys
 import (
 	"time"
 
-	"github.com/it234/goapp/main/models/basemodel"
-	"github.com/it234/goapp/main/models/db"
+	"ginadmin/main/models/basemodel"
+	"ginadmin/main/models/db"
 
 	"github.com/jinzhu/gorm"
 )

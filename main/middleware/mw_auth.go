@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/it234/goapp/main/controllers/common"
-	"github.com/it234/goapp/main/pkg/cache"
-	"github.com/it234/goapp/main/pkg/convert"
-	"github.com/it234/goapp/main/pkg/jwt"
+	"ginadmin/main/controllers/common"
+	"ginadmin/main/pkg/cache"
+	"ginadmin/main/pkg/convert"
+	"ginadmin/main/pkg/jwt"
 
 	"github.com/gin-gonic/gin"
 )
