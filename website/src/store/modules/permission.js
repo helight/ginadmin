@@ -173,8 +173,6 @@ function generateRouter(item, isParent) {
 
 // componentsMap 需要在事先定义好
 export const componentsMap = {
-  example_create: () => import('@/views/example/create'), // 添加文章
-  example_edit: () => import('@/views/example/edit'), // 文章编辑
   table_index: () => import('@/views/tab/index'), // 表格首页
   Icon: () => import('@/views/svg-icons/index'), // 图标管理
   Menu: () => import('@/views/app/sys/menu'), // 菜单
