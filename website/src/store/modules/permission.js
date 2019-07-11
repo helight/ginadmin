@@ -173,7 +173,6 @@ function generateRouter(item, isParent) {
 
 // componentsMap 需要在事先定义好
 export const componentsMap = {
-  table_index: () => import('@/views/tab/index'), // 表格首页
   Icon: () => import('@/views/svg-icons/index'), // 图标管理
   Menu: () => import('@/views/app/sys/menu'), // 菜单
   Admins: () => import('@/views/app/sys/admins'), // 后台管理员
