@@ -49,12 +49,6 @@ const componentsRouter = {
       meta: { title: 'sticky' }
     },
     {
-      path: 'count-to',
-      component: () => import('@/views/components-demo/countTo'),
-      name: 'CountToDemo',
-      meta: { title: 'countTo' }
-    },
-    {
       path: 'mixin',
       component: () => import('@/views/components-demo/mixin'),
       name: 'ComponentMixinDemo',

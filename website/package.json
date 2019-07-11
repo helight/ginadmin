@@ -44,7 +44,6 @@
   },
   "dependencies": {
     "axios": "0.18.1",
-    "clipboard": "2.0.4",
     "codemirror": "5.45.0",
     "echarts": "4.2.1",
     "el-tree-select": "^3.1.1",
@@ -59,7 +58,6 @@
     "tui-editor": "1.3.3",
     "fuse.js": "3.4.4",
     "vue": "2.6.10",
-    "vue-count-to": "1.0.13",
     "vue-i18n": "7.3.2",
     "vue-router": "3.0.2",
     "vue-splitpane": "1.0.4",
