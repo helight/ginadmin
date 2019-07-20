@@ -25,7 +25,7 @@ git clone https://github.com/helight/ginadmin
 
 ### 运行
 
-- 运行服务端：make; cd main;./admin，运行成功后打开 127.0.0.1:8080，如果是在windows下操作，需要提前安装并配置好mingw（sqlite的操作库用到），安装方式请自行百度/谷歌。
+- 运行服务端：cd main; make; ./admin，运行成功后打开 127.0.0.1:8080，如果是在windows下操作，需要提前安装并配置好mingw（sqlite的操作库用到），安装方式请自行百度/谷歌。
 - 调试/运行web：cd website/manageweb，npm install，npm run dev
 - 配置文件在(`main/config.yaml`)中，用户默认为：admin/123456
 
