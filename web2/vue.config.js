@@ -6,8 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-//const name = pkg.name || 'vue-element-admin' // page title
-const name = 'golang-后台管理系统' // page title
+const name = '后台管理系统' // page title
 const port = 9527 // dev port
 
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
@@ -32,9 +31,9 @@ module.exports = {
       errors: true
     },
     proxy: {
-      '/api/':{
-        target:'http://127.0.0.1:8080',
-        changeOrigin:true
+      '/api/': {
+        target: 'http://127.0.0.1:8080',
+        changeOrigin: true
       },
       // change xxx-api/login => mock/login
       // detail: https://cli.vuejs.org/config/#devserver-proxy
