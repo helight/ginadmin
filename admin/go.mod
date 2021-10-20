@@ -28,11 +28,12 @@ require (
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/coocood/freecache v1.1.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/gin-gonic/gin v1.4.0
+	github.com/gin-gonic/gin v1.7.0
 	github.com/jinzhu/gorm v1.9.8
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/satori/go.uuid v1.2.0
-	go.uber.org/atomic v1.4.0 // indirect
-	go.uber.org/multierr v1.1.0 // indirect
-	go.uber.org/zap v1.10.0
+	github.com/spf13/viper v1.9.0
+	github.com/stretchr/testify v1.7.0
+	go.uber.org/zap v1.17.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
