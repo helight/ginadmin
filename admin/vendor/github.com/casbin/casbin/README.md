@@ -3,11 +3,9 @@ Casbin
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/casbin/casbin)](https://goreportcard.com/report/github.com/casbin/casbin)
 [![Build Status](https://travis-ci.org/casbin/casbin.svg?branch=master)](https://travis-ci.org/casbin/casbin)
-[![Coverage Status](https://coveralls.io/repos/github/casbin/casbin/badge.svg?branch=master)](https://coveralls.io/github/casbin/casbin?branch=master)
 [![Godoc](https://godoc.org/github.com/casbin/casbin?status.svg)](https://godoc.org/github.com/casbin/casbin)
 [![Release](https://img.shields.io/github/release/casbin/casbin.svg)](https://github.com/casbin/casbin/releases/latest)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/casbin/lobby)
-[![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](http://www.patreon.com/yangluo)
 
 **News**: still worry about how to write the correct Casbin policy? ``Casbin online editor`` is coming to help! Try it at: http://casbin.org/editor/
 
@@ -22,10 +20,10 @@ Casbin is a powerful and efficient open-source access control library for Golang
 [Casbin](https://github.com/casbin/casbin) | [jCasbin](https://github.com/casbin/jcasbin) | [node-Casbin](https://github.com/casbin/node-casbin) | [PHP-Casbin](https://github.com/php-casbin/php-casbin)
 production-ready | production-ready | production-ready | production-ready
 
-[![python](https://casbin.org/img/langs/python.png)](https://github.com/casbin/pycasbin) | [![delphi](https://casbin.org/img/langs/delphi.png)](https://github.com/casbin4d/Casbin4D) | [![dotnet](https://casbin.org/img/langs/dotnet.png)](https://github.com/Devolutions/casbin-net) | [![rust](https://casbin.org/img/langs/rust.png)](https://github.com/Devolutions/casbin-rs)
+[![python](https://casbin.org/img/langs/python.png)](https://github.com/casbin/pycasbin) | [![dotnet](https://casbin.org/img/langs/dotnet.png)](https://github.com/casbin-net/Casbin.NET) | [![delphi](https://casbin.org/img/langs/delphi.png)](https://github.com/casbin4d/Casbin4D) | [![rust](https://casbin.org/img/langs/rust.png)](https://github.com/Devolutions/casbin-rs)
 ----|----|----|----
-[PyCasbin](https://github.com/casbin/pycasbin) | [Casbin4D](https://github.com/casbin4d/Casbin4D) | [Casbin-Net](https://github.com/Devolutions/casbin-net) | [Casbin-RS](https://github.com/Devolutions/casbin-rs)
-production-ready | experimental | WIP | WIP
+[PyCasbin](https://github.com/casbin/pycasbin) | [Casbin.NET](https://github.com/casbin-net/Casbin.NET) | [Casbin4D](https://github.com/casbin4d/Casbin4D) | [Casbin-RS](https://github.com/Devolutions/casbin-rs)
+production-ready | production-ready | experimental | WIP
 
 ## Table of contents
 
@@ -178,7 +176,7 @@ Note: you can also initialize an enforcer with policy in DB instead of file, see
 3. Besides the static policy file, Casbin also provides API for permission management at run-time. For example, You can get all the roles assigned to a user as below:
 
     ```go
-    roles := e.GetRoles("alice")
+    roles := e.GetImplicitRolesForUser(sub)
     ```
 
 See [Policy management APIs](#policy-management) for more usage.
@@ -237,6 +235,32 @@ Authz middlewares for web frameworks: https://casbin.org/docs/en/middlewares
 ## Our adopters
 
 https://casbin.org/docs/en/adopters
+
+## Contributors
+
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/casbin/casbin/graphs/contributors"><img src="https://opencollective.com/casbin/contributors.svg?width=890&button=false" /></a>
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/casbin#backer)]
+
+<a href="https://opencollective.com/casbin#backers" target="_blank"><img src="https://opencollective.com/casbin/backers.svg?width=890"></a>
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/casbin#sponsor)]
+
+<a href="https://opencollective.com/casbin/sponsor/0/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/1/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/2/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/3/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/4/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/5/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/6/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/7/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/8/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/casbin/sponsor/9/website" target="_blank"><img src="https://opencollective.com/casbin/sponsor/9/avatar.svg"></a>
 
 ## License
 
